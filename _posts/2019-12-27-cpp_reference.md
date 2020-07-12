@@ -4,7 +4,8 @@ title: "腾讯后台开发面试笔试C++知识点参考笔记"
 date:   2019-12-29
 tags: [c++]
 comments: true
-author: lemonchann
+author: lemon
+toc : true
 ---
 
 **文章是由我笔试面试腾讯笔记整理而来，主要是针对面试的C++后台开发岗位，涵盖了大部分C++后台开发相关的，可能会考察和被问到的技术点。**

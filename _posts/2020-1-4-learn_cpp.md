@@ -4,7 +4,8 @@ title: "Linux后台开发C++学习路线技能加点"
 date:   2020-1-1
 tags: [c++]
 comments: true
-author: lemonchann
+author: lemon
+toc : true
 ---
 
 最近在知乎经常被邀请回答类似如何学习C++和C++后台开发应该具体储备哪些基础技能的问题。

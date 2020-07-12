@@ -4,7 +4,8 @@ title: "可能是最全面的github pages搭建个人博客教程"
 date:   2019-11-22
 tags: [geek]
 comments: true
-author: lemonchann
+author: lemon
+toc : true
 ---
 
 作为一个程序员怎么能没有自己的个人博客呢，这里详细记录和分享我的博客搭建经验，让你轻轻松松拥有自己的博客网站。	傻瓜式一站式教你用github pages 来搭建博客，详细记录全过程。
@@ -16,6 +17,12 @@ author: lemonchann
 先看下博客整体效果。[**点击在线预览我的博客**]( https://lemonchann.github.io/ )
 
 ![blogPage](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/blogPage.png)
+
+### 文章预览效果
+
+![文章带目录](https://i.loli.net/2020/07/12/TFlRj3kBdpocY9K.png)
+
+
 
 ### 支持特性
 
@@ -38,6 +45,10 @@ author: lemonchann
 - 支持中文布局
 
 - 支持归档与标签
+
+- 博客主题颜色可调整
+
+- 支持文章目录
 
   
 
@@ -212,7 +223,14 @@ url: https://yourname.github.io
 
 4. `$ tasklist|findstr 312964`也能查看进程名，查到结束掉他同步骤3.
 
-   
+- 预览报错 `Liquid Exception: Liquid error (line 13): invalid byte sequence in UTF-8 in sitemap.xml
+  `
+  由于sitemap.xml是给谷歌百度搜索引擎抓取用的，本地预览暂时可以不用管。
+
+  临时解决方法：如果出错直接注释掉 _config.yml 中的 sitemap 插件即可，具体的注释掉下面一行：
+  `plugins: jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem`
+
+  
 
 ## 搜索功能集成
 
@@ -345,6 +363,22 @@ eg.  `style="font-family:arial;color:Gainsboro;font-size:10px; text-align:right;
 
 
 
+## 修改博客主题颜色
+
+博客使用开源的颜色表[Open Color](https://yeun.github.io/open-color/)，博客主题的可选颜色有：
+
+`red, pink, grape, violet, indigo, blue, cyan, teal, green, lime, yellow`
+
+修改文件`_sass/_variables.scss`，将文件中当前颜色，比如当前是 `grape` 全部替换成你想要的颜色即可。
+
+## 显示文章目录
+
+在文章开头信息中心增加 `toc: true` 描述即可打开文章目录显示。效果如下：
+
+![文章带目录](https://i.loli.net/2020/07/12/TFlRj3kBdpocY9K.png)
+
+
+
 ## 如何传图片
 
 写markdown最头疼的就是图片的插入了，推荐用[PicGo](https://picgo.github.io/PicGo-Doc/zh/guide/)一键上传得到链接，直接可以插入markdown。
@@ -352,6 +386,8 @@ eg.  `style="font-family:arial;color:Gainsboro;font-size:10px; text-align:right;
 PicGo支持图片上传github、SM.MS图床、阿里云、腾讯云等主流图床或云端。直接拖图片，上传云端、得到链接一步搞定，方便快捷。
 
 ![PicGo](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/PicGo.png)
+
+
 
 ## 其他功能
 

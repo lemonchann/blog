@@ -4,7 +4,8 @@ title: "性能调优ulimit增加TCP连接最大限制"
 date: 2018-11-1
 tags: [linux]
 comments: true
-author: lemonchann
+author: lemon
+toc : true
 ---
 
 Linux系统中tcp连接数是有最大限制的，即是进程可打开的最大文件描述个数，通过命令`ulimit -n`查看

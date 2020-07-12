@@ -4,7 +4,8 @@ title: "玩转vscode支持PlantUML绘制预览流程图"
 date: 2018-10-12
 tags: [vscode]
 comments: true
-author: lemonchann
+author: lemon
+toc : true
 ---
 
 软件设计过程中，有好几种图需要画，比如流程图、类图、组件图等，我知道大部分人画流程图一般都会用微软的viso绘制，我之前也是这个习惯，viso画图有个不好的地方是需要时刻去调整线条和边框已达到简洁美观，今天我给大家介绍一款程序员画图神器PlantUML，一款你用了就爱上的画图软件！

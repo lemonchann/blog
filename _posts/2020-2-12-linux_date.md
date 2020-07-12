@@ -4,7 +4,8 @@ title: "多面手linux date命令"
 date:   2020-1-27
 tags: [后台开发]
 comments: true
-author: lemonchann
+author: lemon
+toc : true
 ---
 
 今天给项目写了个脚本需要获取前一天的时间，本来先获取今天的然后减一下，如果是1号的话还要考虑大小月份挺复杂的，于是去查了一下手册`date`命令原生支持，喜出望外，今天就详细说说这个看起来不起眼的`date`命令。

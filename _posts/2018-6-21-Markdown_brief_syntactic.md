@@ -63,6 +63,8 @@ toc: true
 - **插入表情**
 
 > :smile: :smile_cat: 
+>
+> [表情速查表](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
 ### 以我的实践举个图片插入的栗子：
 
@@ -101,7 +103,10 @@ header 1 | header 2
 row 1 col 1 | row 1 col 2  
 row 2 col 1 | row 2 col 2
 
-
+- 
+- TODO list
+  - [ ] 未完成
+  - [x] 完成
 
 ### 编辑器推荐
 

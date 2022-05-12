@@ -1,14 +1,16 @@
 私人博客仓库，博客搭建指南移步[这里](https://github.com/lemonchann/lemonchann.github.io)
 
-### 文章版权
+## 文章版权
 
-`_posts` 文件夹内所有文章均为个人原创博文，版权归我所有，转载需联系我获得授权。
+`_posts` 文件夹内所有文章版权归我所有，转载需联系我获得授权。
 
-### 致谢
+## 致谢
 
 感谢Jekyll主题[LOFFER](https://fromendworld.github.io/LOFFER/)模提供了原始主题模板，我在其上进行的二次开发。
 
-个人技术公众号「后端技术学堂」分享、记录、成长，欢迎扫码添加。
+如果搭建过程中有什么问题，也可以扫码添加我的个人技术公众号讨论交流。
 
-![公众号二维码](https://upload-images.jianshu.io/upload_images/7842464-15f939ec039690f6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+**这是一个专注编程知识和资源分享的公众号，包含各类编程学习路线，让你在编程路上少走弯路**
+
+![公众号二维码](https://github.com/lemonchann/images/raw/master/gzh/%E6%96%87%E6%9C%AB%E6%8E%A8%E5%B9%BF%E6%96%87%E6%A1%88.png)
 
